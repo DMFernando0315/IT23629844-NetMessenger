@@ -86,3 +86,13 @@ Capture real screenshots for:
 12. Log file
 13. Key source-code sections
 14. Git history
+
+## Project Structure
+
+- server_9844.c - Multithreaded TCP server implementation
+- client_9844.c - TCP client implementation
+- Makefile_9844 - Build and run configuration
+- storage/IT23629844 - User file storage
+- received_files - Client-side received files
+- netmsg_IT23629844.log - Server activity log
+- README.md - Project setup and usage information
