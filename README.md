@@ -96,3 +96,22 @@ Capture real screenshots for:
 - received_files - Client-side received files
 - netmsg_IT23629844.log - Server activity log
 - README.md - Project setup and usage information
+
+## Build and Run Workflow
+
+1. Build both server and client using:
+   make -f Makefile_9844
+
+2. Start the server using:
+   ./server_9844
+
+3. Connect a client using:
+   ./client_9844 127.0.0.1 <username>
+
+4. Verify the server listener using:
+   ss -tlnp | grep 15844
+
+5. Use the supported messaging, room, file-transfer and disconnect commands.
+
+6. Review server activity in:
+   netmsg_IT23629844.log
