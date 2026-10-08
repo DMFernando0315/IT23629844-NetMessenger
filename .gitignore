@@ -1,0 +1,5 @@
+server_9844
+client_9844
+*.o
+*.tmp
+received_files/
